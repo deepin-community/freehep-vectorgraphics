@@ -1,0 +1,20 @@
+
+s/jdom/org.jdom/ jdom jar s/1\..*/debian/ * *
+junit junit jar s/4\..*/4.x/ * *
+org.freehep freehep-graphics2d-export-example jar s/.*/debian/ * *
+org.freehep freehep-graphics2d-headless-example jar s/.*/debian/ * *
+org.freehep freehep-graphics2d jar s/.*/debian/ * *
+org.freehep freehep-graphicsbase jar s/.*/debian/ * *
+org.freehep freehep-graphicsio-emf jar s/.*/debian/ * *
+org.freehep freehep-graphicsio-java jar s/.*/debian/ * *
+org.freehep freehep-graphicsio-pdf jar s/.*/debian/ * *
+org.freehep freehep-graphicsio-ps jar s/.*/debian/ * *
+org.freehep freehep-graphicsio-svg jar s/.*/debian/ * *
+org.freehep freehep-graphicsio-swf jar s/.*/debian/ * *
+org.freehep freehep-graphicsio-tests jar s/.*/debian/ * *
+org.freehep freehep-graphicsio jar s/.*/debian/ * *
+org.freehep freehep-vectorgraphics pom s/.*/debian/ * *
+org.apache.maven.plugins maven-enforcer-plugin * s/.*/debian/ * *
+org.apache.rat apache-rat-plugin * s/.*/debian/ * *
+org.freehep s/freehep-chartable-converter-plugin/freehep-chartableconverter-plugin/ * s/.*/2.0/ * *
+org.codehaus.mojo exec-maven-plugin * s/.*/1.6.0/ * *

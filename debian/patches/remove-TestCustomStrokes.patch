@@ -1,0 +1,22 @@
+--- a/freehep-graphicsio-tests/src/main/java/org/freehep/graphicsio/test/TestApplication.java
++++ b/freehep-graphicsio-tests/src/main/java/org/freehep/graphicsio/test/TestApplication.java
+@@ -18,7 +18,7 @@
+         frame.addPanel("All", new TestAll(null));
+         frame.addPanel("Clip", new TestClip(null));
+         frame.addPanel("Colors", new TestColors(null));
+-        frame.addPanel("Custom Strokes", new TestCustomStrokes(null));
++//        frame.addPanel("Custom Strokes", new TestCustomStrokes(null));
+         frame.addPanel("FontDerivation", new TestFontDerivation(null));
+         frame.addPanel("Fonts", new TestFonts(null));
+ //        frame.addPanel("Histogram", new TestHistogram(null));
+--- a/freehep-graphicsio-tests/src/main/java/org/freehep/graphicsio/test/TestSuite.java
++++ b/freehep-graphicsio-tests/src/main/java/org/freehep/graphicsio/test/TestSuite.java
+@@ -245,7 +245,7 @@
+         tests.add(new Test("TestAll", on));
+         tests.add(new Test("TestClip", on));
+         tests.add(new Test("TestColors", on));
+-        tests.add(new Test("TestCustomStrokes", on)); // && !onMacOSXandJDK15));
++        // tests.add(new Test("TestCustomStrokes", on)); // && !onMacOSXandJDK15));
+         tests.add(new Test("TestFonts", on));
+         tests.add(new Test("TestFontDerivation", on));
+         tests.add(new Test("TestGraphicsContexts", on));

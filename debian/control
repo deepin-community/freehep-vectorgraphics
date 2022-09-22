@@ -1,0 +1,177 @@
+Source: freehep-vectorgraphics
+Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
+Uploaders: Andrius Merkys <merkys@debian.org>
+Section: java
+Priority: optional
+Build-Depends: debhelper-compat (= 13),
+               default-jdk,
+               maven-debian-helper (>= 2.1)
+Build-Depends-Indep: junit4,
+                     libexec-maven-plugin-java,
+                     libfreehep-chartableconverter-plugin-java,
+                     libfreehep-io-java,
+                     libmaven-javadoc-plugin-java (>= 3.0.1),
+                     libmaven-shade-plugin-java (>= 3.1.1)
+Standards-Version: 4.5.0
+Vcs-Browser: https://salsa.debian.org/java-team/freehep-vectorgraphics
+Vcs-Git: https://salsa.debian.org/java-team/freehep-vectorgraphics.git
+Homepage: https://freehep.github.com/freehep-vectorgraphics/
+Rules-Requires-Root: no
+
+Package: libfreehep-graphics2d-java
+Architecture: all
+Depends: ${maven:Depends},
+         ${misc:Depends}
+Suggests: ${maven:OptionalDepends}
+Description: FreeHEP 2D Graphics Library
+ The Vector Graphics package of the FreeHEP Java Library enables any Java
+ program to export to a variety of vector graphics formats as well as bitmap
+ image formats. Among the vector formats are Encapsulated PostScript (EPS),
+ Portable Document Format (PDF), Enhanced Meta Format (EMF), Scalable Vector
+ Graphics (SVG), and Flash (SWF), while the image formats include GIF, PNG, JPG
+ and PPM.
+ .
+ This package contains the FreeHEP 2D Graphics Library.
+
+Package: libfreehep-graphicsbase-java
+Architecture: all
+Depends: ${maven:Depends},
+         ${misc:Depends}
+Suggests: ${maven:OptionalDepends}
+Description: FreeHEP Graphics Base Library
+ The Vector Graphics package of the FreeHEP Java Library enables any Java
+ program to export to a variety of vector graphics formats as well as bitmap
+ image formats. Among the vector formats are Encapsulated PostScript (EPS),
+ Portable Document Format (PDF), Enhanced Meta Format (EMF), Scalable Vector
+ Graphics (SVG), and Flash (SWF), while the image formats include GIF, PNG, JPG
+ and PPM.
+ .
+ This package contains the FreeHEP Graphics Base Library.
+
+Package: libfreehep-graphicsio-emf-java
+Architecture: all
+Depends: ${maven:Depends},
+         ${misc:Depends}
+Suggests: ${maven:OptionalDepends}
+Description: FreeHEP Enhanced Metafile Format Driver
+ The Vector Graphics package of the FreeHEP Java Library enables any Java
+ program to export to a variety of vector graphics formats as well as bitmap
+ image formats. Among the vector formats are Encapsulated PostScript (EPS),
+ Portable Document Format (PDF), Enhanced Meta Format (EMF), Scalable Vector
+ Graphics (SVG), and Flash (SWF), while the image formats include GIF, PNG, JPG
+ and PPM.
+ .
+ This package contains a GraphicsIO plugin to export to Enhanced Metafile
+ Format.
+
+Package: libfreehep-graphicsio-java
+Architecture: all
+Depends: ${maven:Depends},
+         ${misc:Depends}
+Recommends: ${maven:OptionalDepends}
+Description: FreeHEP GraphicsIO Base Library
+ The Vector Graphics package of the FreeHEP Java Library enables any Java
+ program to export to a variety of vector graphics formats as well as bitmap
+ image formats. Among the vector formats are Encapsulated PostScript (EPS),
+ Portable Document Format (PDF), Enhanced Meta Format (EMF), Scalable Vector
+ Graphics (SVG), and Flash (SWF), while the image formats include GIF, PNG, JPG
+ and PPM.
+ .
+ This package contains the FreeHEP GraphicsIO Base Library.
+
+Package: libfreehep-graphicsio-java-java
+Architecture: all
+Depends: ${maven:Depends},
+         ${misc:Depends}
+Suggests: ${maven:OptionalDepends}
+Description: FreeHEP Java Driver
+ The Vector Graphics package of the FreeHEP Java Library enables any Java
+ program to export to a variety of vector graphics formats as well as bitmap
+ image formats. Among the vector formats are Encapsulated PostScript (EPS),
+ Portable Document Format (PDF), Enhanced Meta Format (EMF), Scalable Vector
+ Graphics (SVG), and Flash (SWF), while the image formats include GIF, PNG, JPG
+ and PPM.
+ .
+ This package contains a GraphicsIO plugin to export the java calls made to
+ Graphics2D as source code, with the associated class, field and method
+ definitions, resulting in a class which, when run will produce the same
+ display. Generating such source code may be helpful in setting up test cases
+ without a lot of machinery around it and in debugging problems for different
+ formats.
+
+Package: libfreehep-graphicsio-pdf-java
+Architecture: all
+Depends: ${maven:Depends},
+         ${misc:Depends}
+Suggests: ${maven:OptionalDepends}
+Description: FreeHEP Portable Document Format Driver
+ The Vector Graphics package of the FreeHEP Java Library enables any Java
+ program to export to a variety of vector graphics formats as well as bitmap
+ image formats. Among the vector formats are Encapsulated PostScript (EPS),
+ Portable Document Format (PDF), Enhanced Meta Format (EMF), Scalable Vector
+ Graphics (SVG), and Flash (SWF), while the image formats include GIF, PNG, JPG
+ and PPM.
+ .
+ This package contains a GraphicsIO plugin to export to Portable Document
+ Format.
+
+Package: libfreehep-graphicsio-ps-java
+Architecture: all
+Depends: ${maven:Depends},
+         ${misc:Depends}
+Recommends: ${maven:OptionalDepends}
+Description: FreeHEP (Encapsulated) PostScript Driver
+ The Vector Graphics package of the FreeHEP Java Library enables any Java
+ program to export to a variety of vector graphics formats as well as bitmap
+ image formats. Among the vector formats are Encapsulated PostScript (EPS),
+ Portable Document Format (PDF), Enhanced Meta Format (EMF), Scalable Vector
+ Graphics (SVG), and Flash (SWF), while the image formats include GIF, PNG, JPG
+ and PPM.
+ .
+ This package contains a GraphicsIO plugin to export to PostScript format.
+
+Package: libfreehep-graphicsio-svg-java
+Architecture: all
+Depends: ${maven:Depends},
+         ${misc:Depends}
+Suggests: ${maven:OptionalDepends}
+Description: FreeHEP Scalable Vector Graphics Driver
+ The Vector Graphics package of the FreeHEP Java Library enables any Java
+ program to export to a variety of vector graphics formats as well as bitmap
+ image formats. Among the vector formats are Encapsulated PostScript (EPS),
+ Portable Document Format (PDF), Enhanced Meta Format (EMF), Scalable Vector
+ Graphics (SVG), and Flash (SWF), while the image formats include GIF, PNG, JPG
+ and PPM.
+ .
+ This package contains a GraphicsIO plugin to export to SVG format.
+
+Package: libfreehep-graphicsio-swf-java
+Architecture: all
+Depends: ${maven:Depends},
+         ${misc:Depends}
+Recommends: ${maven:OptionalDepends}
+Description: FreeHEP SWF (Flash) Driver
+ The Vector Graphics package of the FreeHEP Java Library enables any Java
+ program to export to a variety of vector graphics formats as well as bitmap
+ image formats. Among the vector formats are Encapsulated PostScript (EPS),
+ Portable Document Format (PDF), Enhanced Meta Format (EMF), Scalable Vector
+ Graphics (SVG), and Flash (SWF), while the image formats include GIF, PNG, JPG
+ and PPM.
+ .
+ This package contains a GraphicsIO plugin to export to SWF (Flash) format.
+
+Package: libfreehep-graphicsio-tests-java
+Architecture: all
+Depends: ${maven:Depends},
+         ${misc:Depends}
+Recommends: ${maven:OptionalDepends}
+Description: FreeHEP GraphicsIO Test Library
+ The Vector Graphics package of the FreeHEP Java Library enables any Java
+ program to export to a variety of vector graphics formats as well as bitmap
+ image formats. Among the vector formats are Encapsulated PostScript (EPS),
+ Portable Document Format (PDF), Enhanced Meta Format (EMF), Scalable Vector
+ Graphics (SVG), and Flash (SWF), while the image formats include GIF, PNG, JPG
+ and PPM.
+ .
+ This package contains a series of tests used within GraphicsIO or its
+ plugins.

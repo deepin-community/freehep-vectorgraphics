@@ -1,0 +1,15 @@
+Description: Making field required by GeoGebra protected instead of private.
+Author: Giovanni Mascellani <gio@debian.org>
+diff --git a/freehep-graphicsio-svg/src/main/java/org/freehep/graphicsio/svg/SVGGraphics2D.java b/freehep-graphicsio-svg/src/main/java/org/freehep/graphicsio/svg/SVGGraphics2D.java
+index 27fcb1d..84004cc 100644
+--- a/freehep-graphicsio-svg/src/main/java/org/freehep/graphicsio/svg/SVGGraphics2D.java
++++ b/freehep-graphicsio-svg/src/main/java/org/freehep/graphicsio/svg/SVGGraphics2D.java
+@@ -155,7 +155,7 @@ public class SVGGraphics2D extends AbstractVectorGraphicsIO {
+     // The private writer used for this file.
+     private OutputStream ros;
+ 
+-    private PrintWriter os;
++    protected PrintWriter os;
+ 
+     // table for gradients
+     Hashtable<GradientPaint, String> gradients = new Hashtable<GradientPaint, String>();

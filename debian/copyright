@@ -1,0 +1,143 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: FreeHEP Vector Graphics
+Source: http://freehep.github.com/freehep-vectorgraphics/
+Files-Excluded:
+ freehep-graphicsio/src/main/java/org/freehep/graphicsio/gif/NeuQuant.pdf
+ freehep-graphicsio-swf/src/examples
+ freehep-graphicsio-tests/src/main/java/org/freehep/graphicsio/test/TestCustomStrokes.java
+
+Files: *
+Copyright: 2000-2009, CERN, Geneva, Switzerland
+ 2000-2009, SLAC, Stanford, California, U.S.A.
+ 2000-2009, University of California Santa Cruz, U.S.A.
+License: Apache-2.0 and LGPL-2.1
+
+Files: freehep-graphicsio/src/main/java/org/freehep/graphicsio/ImageEncoder.java
+ freehep-graphicsio/src/main/java/org/freehep/graphicsio/gif/GIFEncoder.java
+ freehep-graphicsio/src/main/java/org/freehep/graphicsio/gif/ImageEncoder.java
+ freehep-graphicsio/src/main/java/org/freehep/graphicsio/ppm/ImageEncoder.java
+ freehep-graphicsio/src/main/java/org/freehep/graphicsio/ppm/PPMEncoder.java
+Copyright: 1996, 1998, Jef Poskanzer <jef@acme.com>
+License: BSD-2-clause
+
+Files: freehep-graphicsbase/src/main/java/org/freehep/graphicsbase/xml/util/XMLCharacterProperties.java
+Copyright: 1999, The Apache Software Foundation
+Comment:
+ This software consists of voluntary contributions made by many
+ individuals on behalf of the Apache Software Foundation and was
+ originally based on software copyright (c) 1999, International
+ Business Machines, Inc., http://www.apache.org.  For more
+ information on the Apache Software Foundation, please see
+ <http://www.apache.org/>.
+License: Apache-1.1
+
+Files: freehep-graphicsio/src/main/java/org/freehep/graphicsio/png/PNGEncoder.java
+Copyright: 2000-2009, CERN, Geneva, Switzerland
+ 2000-2009, SLAC, Stanford, California, U.S.A.
+ 2000-2009, University of California Santa Cruz, U.S.A.
+License: LGPL-2.1+
+
+Files: freehep-graphicsio/src/main/java/org/freehep/graphicsio/gif/NeuQuant.java
+Copyright: 1994, Anthony Dekker
+License: other
+ Any party obtaining a copy of these files from the author, directly or
+ indirectly, is granted, free of charge, a full and unrestricted irrevocable,
+ world-wide, paid up, royalty-free, nonexclusive right and license to deal
+ in this software and documentation files (the "Software"), including without
+ limitation the rights to use, copy, modify, merge, publish, distribute, sublicense,
+ and/or sell copies of the Software, and to permit persons who receive
+ copies from any such party to do so, with the only requirement being
+ that this copyright notice remain intact.
+
+Files: debian/*
+Copyright: 2019-2020, Andrius Merkys <merkys@debian.org>
+License: Apache-2.0
+
+License: Apache-1.1
+ Redistribution and use in source and binary forms, with or without
+ modification, are permitted provided that the following conditions
+ are met:
+ .
+ 1. Redistributions of source code must retain the above copyright
+    notice, this list of conditions and the following disclaimer.
+ .
+ 2. Redistributions in binary form must reproduce the above copyright
+    notice, this list of conditions and the following disclaimer in
+    the documentation and/or other materials provided with the
+    distribution.
+ .
+ 3. The end-user documentation included with the redistribution,
+    if any, must include the following acknowledgment:
+       "This product includes software developed by the
+        Apache Software Foundation (http://www.apache.org/)."
+    Alternately, this acknowledgment may appear in the software itself,
+    if and wherever such third-party acknowledgments normally appear.
+ .
+ 4. The names "Xerces" and "Apache Software Foundation" must
+    not be used to endorse or promote products derived from this
+    software without prior written permission. For written
+    permission, please contact apache@apache.org.
+ .
+ 5. Products derived from this software may not be called "Apache",
+    nor may "Apache" appear in their name, without prior written
+    permission of the Apache Software Foundation.
+ .
+ THIS SOFTWARE IS PROVIDED ``AS IS'' AND ANY EXPRESSED OR IMPLIED
+ WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES
+ OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+ DISCLAIMED.  IN NO EVENT SHALL THE APACHE SOFTWARE FOUNDATION OR
+ ITS CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+ SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT
+ LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF
+ USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND
+ ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
+ OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT
+ OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
+ SUCH DAMAGE.
+
+License: Apache-2.0
+ On Debian systems, the full text of the Apache-2.0 license
+ can be found in the file '/usr/share/common-licenses/Apache-2.0'
+
+License: BSD-2-clause
+ Redistribution and use in source and binary forms, with or without
+ modification, are permitted provided that the following conditions
+ are met:
+ 1. Redistributions of source code must retain the above copyright
+    notice, this list of conditions and the following disclaimer.
+ 2. Redistributions in binary form must reproduce the above copyright
+    notice, this list of conditions and the following disclaimer in the
+    documentation and/or other materials provided with the distribution.
+ .
+ THIS SOFTWARE IS PROVIDED BY THE AUTHOR AND CONTRIBUTORS ``AS IS'' AND
+ ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+ IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
+ ARE DISCLAIMED.  IN NO EVENT SHALL THE AUTHOR OR CONTRIBUTORS BE LIABLE
+ FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+ DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS
+ OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)
+ HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT
+ LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY
+ OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
+ SUCH DAMAGE.
+
+License: LGPL-2.1
+ On Debian systems, the full text of the LGPL-2.1 license
+ can be found in the file '/usr/share/common-licenses/LGPL-2.1'
+
+License: LGPL-2.1+
+ This library is free software; you can redistribute it and/or
+ modify it under the terms of the GNU Lesser General Public
+ License as published by the Free Software Foundation; either
+ version 2.1 of the License, or (at your option) any later version.
+ .
+ This library is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ Lesser General Public License for more details.
+ .
+ You should have received a copy of the GNU Lesser General Public
+ License along with this library; if not, write to the Free Software
+ Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301, USA
+ A copy of the GNU LGPL may be found at
+ http://www.gnu.org/copyleft/lesser.html.

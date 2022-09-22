@@ -1,0 +1,3 @@
+fix-version-number.patch
+remove-TestCustomStrokes.patch
+PrintWriter-private-to-protected.patch

@@ -1,0 +1,30 @@
+freehep-vectorgraphics (2.4+dfsg-3) unstable; urgency=medium
+
+  * Upload to unstable.
+
+ -- Andrius Merkys <merkys@debian.org>  Wed, 22 Jul 2020 07:44:22 -0400
+
+freehep-vectorgraphics (2.4+dfsg-2) experimental; urgency=medium
+
+  [ Andrius Merkys ]
+  * Adding PrintWriter-private-to-protected.patch to enable GeoGebra to use the
+    new FreeHEP.
+
+  [ Andreas Tille ]
+  * Standards-Version: 4.5.0 (routine-update)
+  * debhelper-compat 13 (routine-update)
+  * Point Vcs fields to salsa.debian.org (routine-update)
+  * Add salsa-ci file (routine-update)
+  * Rules-Requires-Root: no (routine-update)
+  * Use secure URI in Homepage field.
+  * Set upstream metadata fields: Bug-Database, Bug-Submit, Repository,
+    Repository-Browse.
+
+ -- Andrius Merkys <merkys@debian.org>  Wed, 22 Jul 2020 00:04:14 -0400
+
+freehep-vectorgraphics (2.4+dfsg-1) experimental; urgency=medium
+
+  * Packaging upstream release 2.4 from unsplit source package
+    (Closes: #956845)
+
+ -- Andrius Merkys <merkys@debian.org>  Tue, 26 May 2020 05:19:36 -0400
